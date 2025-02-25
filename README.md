@@ -22,3 +22,15 @@ This repository contains a *machine learning model* that predicts the *combinati
    ```bash
    git clone https://github.com/yourusername/rtl-combinational-depth.git  
    cd rtl-combinational-depth
+2.Install dependencies
+pip install -r requirements.txt  
+3.Run the model training script
+ python train_model.py  
+4.Make predictions on new data
+ python predict_depth.py
+ 🎯 Model Performance
+Once the script runs successfully, you will see the following output in the terminal:
+Mean Absolute Error (MAE): 0.245
+Root Mean Squared Error (RMSE): 0.379
+R-squared (R2): 0.89
+Predicted Combinational Depth: 15.4
